@@ -11,4 +11,4 @@ jobs:
       with:
         java-version: 15
     - name: Build
-      run: ./gradlew clean install
+      run: ./gradlew clean build
