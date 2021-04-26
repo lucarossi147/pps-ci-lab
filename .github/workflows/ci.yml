@@ -1,4 +1,4 @@
-name: luca
+name: schiaroDuce
 on:
   push: # On every push on any branch
 jobs:
