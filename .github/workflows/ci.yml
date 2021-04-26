@@ -1,0 +1,15 @@
+name: luca
+on:
+	push:
+jobs:
+	Build:
+		runs-on: ubuntu-latest
+		env:
+			TERM:dumb
+		steps:
+			- name: Checkout
+			  with:
+				java-version: 11
+			- name: Build 
+			  run: ./gradlew check
+
